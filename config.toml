@@ -28,8 +28,7 @@ paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-disqusShortname = "mzch-org"
-
+#disqusShortname = "mzch-org"
 
 [permalinks]
 post = "/:year/:month/:day/:filename/"
@@ -67,6 +66,14 @@ errormessage = "Submitting form failed!"
 optin = true #opt-in: true/false
 
 [params]
+# Commento Host
+#commentoHostname = "rfc1855.com"
+# Coral Host
+#coralHostname = "csnik.com"
+# Remark42 Host
+remarkHostname = "logosnaut.com"
+remarkID = "mzch"
+
 # bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
 # default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
 # slate, spacelab, superhero, united, yeti.
