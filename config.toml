@@ -69,10 +69,10 @@ optin = true #opt-in: true/false
 # Commento Host
 #commentoHostname = "rfc1855.com"
 # Coral Host
-#coralHostname = "csnik.com"
+coralHostname = "commentre.com"
 # Remark42 Host
-remarkHostname = "logosnaut.com"
-remarkID = "mzch"
+#remarkHostname = "logosnaut.com"
+#remarkID = "mzch"
 
 # bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
 # default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
