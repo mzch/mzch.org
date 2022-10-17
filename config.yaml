@@ -1,0 +1,52 @@
+baseurl: 'https://mzch.org'
+languageCode: en-us
+title: 日々是好日
+googleAnalytics: ""
+disqusShortname: ""
+//preserveTaxonomyNames: true
+footnotereturnlinkcontents: ↩
+disableHugoGeneratorInject: true
+pluralizeListTitles: false
+pygmentsCodeFences: false
+pygmentsUseClasses: false
+minify: true
+theme: jam
+
+permalinks:
+  post: /:year/:month/:day/:slug/
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/about/"
+      weight: 2
+    - name: "Posts"
+      url: "/post/"
+      weight: 2
+
+params:
+  description: "日々のあれこれをとりとめもなく漫然と綴るブログ"
+  FooterText: "© Koichi MATSUMOTO"
+  coralHostname: "commentre.com"
+  brandimage: "/images/Logo.png"
+
+frontmatter:
+  author: Koichi MATSUMOTO
+  github: 'https://github.com/mzch'
+  sitename: 日々是好日
+  og_image: /favicon.png
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+outputFormats:
+  RSS:
+    mediatype: application/rss
+    baseName: atom
+
+
