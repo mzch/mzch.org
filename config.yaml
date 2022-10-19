@@ -14,15 +14,18 @@ enableInlineShortcodes: true
 footnoteReturnLinkContents: "^"
 
 DefaultContentLanguage: "ja"
-# [languages]
-# config/_default/languages.toml
+# languages:
+#   config/_default/languages.toml
 
 menus:
   config/menus/menu.ja.yaml
 
 
 outputs:
-  home: ["HTML", "RSS", "JSON"]
+  home: 
+    - HTML
+    - RSS
+    - JSON
 
 permalinks:
   post: "/:year/:month/:day/:filename/"
@@ -61,7 +64,21 @@ params:
   # socials
   twitter: "@_mzch"
   # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-  keywords: ["C", "C++", "Objective-C", "Swift", "Programmer", "PC", "Mac", "Internet", "Server", "Linux", "Debian"]
+  keywords: 
+    - C
+    - C++
+    - Objective-C
+    - Swift
+    - Programmer
+    - PC
+    - Mac
+    - Internet
+    - Server
+    - Dedicated Server
+    - VPS
+    - Linux
+    - Debian
+    - FreeBSD
 
   # limit the number of taxonomies links shown on the sidebar of each page by default.
   # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
@@ -107,7 +124,7 @@ params:
   enableMathNotation: false
 
   # directory(s) where your articles are located
-  mainSections: ["post"] # see config details here https://gohugo.io/functions/where/#mainsections
+  mainSections: "post" # see config details here https://gohugo.io/functions/where/#mainsections
 
   # Label Non inline images on an article body
   figurePositionShow: false # toggle on or off globally
