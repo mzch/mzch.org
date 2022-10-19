@@ -17,6 +17,8 @@ DefaultContentLanguage: "ja"
 # languages:
 #   config/_default/languages.toml
 
+hasCJKLanguage: true
+
 menus:
   config/menus/menu.ja.yaml
 
