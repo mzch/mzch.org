@@ -51,8 +51,8 @@ params:
   # Coral Host
   coralHostname: "commentre.com"
   # Remark42 Host
-  #remarkHostname: "logosnaut.com"
-  #remarkID: "mzch"
+  #remarkHostname: "remark.mzchs.com"
+  #remarkSiteId: "mzch"
 
   # You can use markdown here.
   BrandImage: "/images/Logo.png" #top header brand image.

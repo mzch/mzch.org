@@ -1,6 +1,6 @@
-[submodule "themes/hugo-clarity"]
-	path = themes/hugo-clarity
-	url = https://github.com/mzch/hugo-clarity.git
 [submodule "themes/hugo-bootstrap-premium"]
 	path = themes/hugo-bootstrap-premium
 	url = https://github.com/mzch/hugo-bootstrap-premium.git
+[submodule "themes/hugo-clarity"]
+	path = themes/hugo-clarity
+	url = https://github.com/mzch/hugo-clarity.git
