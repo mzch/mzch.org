@@ -13,15 +13,11 @@ timeout: 30000
 enableInlineShortcodes: true
 footnoteReturnLinkContents: "^"
 
-DefaultContentLanguage: "ja"
+DefaultContentLanguage: ja
 # languages:
 #   config/_default/languages.toml
 
 hasCJKLanguage: true
-
-menus:
-  config/menus/menu.ja.yaml
-
 
 outputs:
   home: 
@@ -37,6 +33,7 @@ taxonomies:
   category: "categories"
   tag: "tags"
   series: "series"
+  contact: "contact"
 
 languages:
   ja:
@@ -59,6 +56,8 @@ params:
   brand: "日々是好日" # brand image alt text.
   topline: "日々のとりとめのない雑感をあれこれ語るだけのブログ"
   footline: "code with <i class='fa fa-heart'></i>"
+
+  largeTwitterCard: true
 
   # enable search
   enableSearch: true
@@ -239,3 +238,8 @@ privacy:
   youtube:
     disabled: false
     privacyEnhanced: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

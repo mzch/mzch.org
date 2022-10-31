@@ -2,23 +2,17 @@ main:
   - name: "ホーム"
     url: ""
     weight: -110
-  - name = "アーカイブ"
-    url: "post/rich-content/"
-    weight: -109
-  - name = "リンク"
+  - name: "リンク"
     identifier: "Links"
     weight: -108
   - parent: "Links"
-    name: "Github"
-    url: "https://github.com/mzch"
+    name: "電脳業務日誌"
+    url: "https://loginterests.com/"
   - parent: "Links"
-    name: "Gitlab"
-    url: "https://gitlab.com/letlive"
-  - parent: "Links"
-    name: "Twitter"
-    url: "https://twitter.com/_mzch"
-  - name: "About"
-    url = "about/"
+    name: "売国奴お断り"
+    url: "https://notraitors.com/"
+  - name: "連絡先"
+    url: "contact/"
     weight: -107
 
 # social menu links
@@ -27,13 +21,13 @@ social:
   - name: "github"
     type: "social"
     weight: 1
-    url = "https://github.com/mzch"
+    url: "https://github.com/mzch"
   - name: "gitlab"
     weight: 2
     url: "https://gitlab.com/letlive"
   - name: "twitter"
     weight: 3
-    url = "https://twitter.com/_mzch"
+    url: "https://twitter.com/_mzch"
   - name: "rss"
     weight: 4
     url: "index.xml"
