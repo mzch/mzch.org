@@ -1,19 +1,19 @@
-main:
-  - name: "ホーム"
-    url: ""
-    weight: -110
-  - name: "リンク"
-    identifier: "Links"
-    weight: -108
-  - parent: "Links"
-    name: "電脳業務日誌"
-    url: "https://loginterests.com/"
-  - parent: "Links"
-    name: "売国奴お断り"
-    url: "https://notraitors.com/"
-  - name: "連絡先"
-    url: "contact/"
-    weight: -107
+#main:
+#  - name: "ホーム"
+#    url: ""
+#    weight: -110
+#  - name: "リンク"
+#    identifier: "Links"
+#    weight: -108
+#  - parent: "Links"
+#    name: "電脳業務日誌"
+#    url: "https://loginterests.com/"
+#  - parent: "Links"
+#    name: "売国奴お断り"
+#    url: "https://notraitors.com/"
+#  - name: "連絡先"
+#    url: "contact/"
+#    weight: -107
 
 # social menu links
 

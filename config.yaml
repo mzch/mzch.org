@@ -22,8 +22,8 @@ hasCJKLanguage: true
 outputs:
   home: 
     - HTML
-    - RSS
     - JSON
+    - RSS
 
 permalinks:
   post: "/:year/:month/:day/:filename/"
