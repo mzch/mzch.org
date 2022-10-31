@@ -3,8 +3,6 @@ title: "連絡フォーム"
 type: page
 ---
 
-何か言伝があればこちらからどうぞ。
-
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <form action="https://submit-form.com/6XTvdIOM" method="POST"  target="_blank">
   <label for="name" style="font-size:small;">お名前</label>
@@ -33,5 +31,3 @@ type: page
         submitButton.removeAttribute("disabled");
       }
 </script>
-
-<br />
