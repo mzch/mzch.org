@@ -37,11 +37,11 @@ code = "/:filename/"
 
 [taxonomies]
 tag = "tags"
-categories = "categories"
+category = "categories"
 
 [author]
-name = "yourname"
-email = "yourname@example.com"
+name = "Koichi MATSUMOTO"
+email = "mzch@mzch.org"
 
 #
 # All parameters below here are optional and can be mixed and matched.
@@ -128,7 +128,7 @@ url = "/post/"
 name = "カテゴリ"
 weight = 2
 identifier = "categoties"
-url = "/categoties/"
+url = "/categories/"
 pre = "<i class='fa fa-cloud'></i>"
 
 [[Languages.ja.menu.main]]
