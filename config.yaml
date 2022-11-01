@@ -50,6 +50,11 @@ params:
   # Remark42 Host
   #remarkHostname: "remark.mzchs.com"
   #remarkSiteId: "mzch"
+  
+  #customCSS:
+  #  - css/custom.css
+  #customJS:
+  #  - js/custom.js
 
   # You can use markdown here.
   BrandImage: "/images/Logo.png" #top header brand image.
