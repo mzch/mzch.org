@@ -7,7 +7,7 @@ comments: false
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <p style="margin-top:3em;">
-<form action="https://submit-form.com/6XTvdIOM" method="POST"  target="_blank">
+<form action="https://submit-form.com/74JqHCBZ" method="POST"  target="_blank">
   <p>
   <label for="name" style="font-size:small;">お名前</label>
   <input type="text" id="name" name="name" placeholder="" required="" style="background-color:#f0f0f0; width:100%" />
