@@ -37,7 +37,7 @@ code = "/:filename/"
 
 [taxonomies]
 tag = "tags"
-topic = "topics"
+categories = "categories"
 
 [author]
 name = "yourname"
@@ -118,25 +118,39 @@ copyright = "(c) 2019-2022 Copyright mzch"
 title = "日々是好日" # Site title
 
 [[Languages.ja.menu.main]]
-name = "ブログ"
-pre = "<i class='fa fa-blog'></i>"
+name = "一覧"
+pre = "<i class='fa fa-list'></i>"
 weight = 1
 identifier = "post"
 url = "/post/"
 
 [[Languages.ja.menu.main]]
-name = "タグ"
+name = "カテゴリ"
 weight = 2
+identifier = "categoties"
+url = "/categoties/"
+pre = "<i class='fa fa-cloud'></i>"
+
+[[Languages.ja.menu.main]]
+name = "タグ"
+weight = 3
 identifier = "tags"
 url = "/tags/"
 pre = "<i class='fa fa-tags'></i>"
 
 [[Languages.ja.menu.main]]
 name = "連絡"
-weight = 3
-identifier = ""
+weight = 4
+identifier = "contact"
 url = "/contact/"
 pre = "<i class='fa fa-envelope'></i>"
+
+[[Languages.ja.menu.main]]
+name = "RSS"
+weight = 5
+identifier = "rss"
+url = "index.xml"
+pre = "<i class='fa fa-rss'></i>"
 
 [markup]
   [markup.goldmark]
