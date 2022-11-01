@@ -5,7 +5,7 @@ comments: false
 
 何か言伝がある場合はこちらからどうぞ。
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=ja" async defer></script>
 <p style="margin-top:3em;">
 <form action="https://submit-form.com/74JqHCBZ" method="POST"  target="_blank">
   <p>
