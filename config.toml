@@ -91,7 +91,8 @@ highlight = "default"
 
 # Sidebar social links.
 github = "mzch" # Your Github profile ID
-bitbucket = "mzch" # Your Bitbucket profile ID
+gitlab = "letlive"
+facebook = "kch.matsumoto" # Your Bitbucket profile ID
 twitter = "_mzch" # Your Twitter profile ID
 
 # Menus
