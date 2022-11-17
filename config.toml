@@ -53,7 +53,7 @@ email = "mzch@mzch.org"
 ## Coral Host
 #coralHostname = "commentre.com"
 ## Remark42 Host
-remarkHostname = "https://uixis.org"
+remarkHostname = "uixis.org"
 remarkID = "uixcmmntsvc"
 
 # bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
