@@ -49,12 +49,12 @@ email = "mzch@mzch.org"
 
 [params]
 ## Commento Host
-#commentoHostname = ""
+commentoHostname = "rfc1855.com"
 ## Coral Host
 #coralHostname = "commentre.com"
 ## Remark42 Host
-remarkHostname = "uixis.org"
-remarkID = "uixcmmntsvc"
+#remarkHostname = "uixis.org"
+#remarkID = "uixcmmntsvc"
 
 # bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
 # default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
