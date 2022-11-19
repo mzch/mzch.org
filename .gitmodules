@@ -16,3 +16,9 @@
 [submodule "themes/ugo-bootstrap-premium"]
 	path = themes/ugo-bootstrap-premium
 	url = https://github.com/mzch/hugo-bootstrap-premium.git
+[submodule "themes/DoIt"]
+	path = themes/DoIt
+	url = https://github.com/HEIGE-PCloud/DoIt.git
+[submodule "themes/hugo-bootstrap-premium"]
+	path = themes/hugo-bootstrap-premium
+	url = https://github.com/mzch/hugo-bootstrap-premium.git

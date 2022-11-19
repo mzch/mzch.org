@@ -11,6 +11,8 @@ draft: false
 
 そこで、ここは一念発起。OS を再インストールするべえと思い立ち、それなら慣れてる [Debian](https://www.debian.org/) でよくね？となって、移行した次第。
 
+<!--more-->
+
 で、毎日自動でバックアップしてるし、データは大丈夫だよね、と思って、さくっと鯖に使ってる Mac mini を初期化。今更 [Stretch](https://www.debian.org/releases/stable/) を入れるのもなあと思って、[Buster](https://www.debian.org/releases/testing/) をインストールした。正式リリースも近いしね。:)
 
 で、データを復旧するべく、バックアップデータを確認したら、MySQL のデータベースがバックアップされていない。orz

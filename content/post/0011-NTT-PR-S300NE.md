@@ -9,6 +9,7 @@ draft: false
 
 NTT PR-S300NE ver. 22.02 には、IPv6 を PPPoE する機能があるのだが、ログイン認証情報を IPv4 PPPoE と共有する前提になっているため、[インターリンク](https://www.interlink.or.jp/service/flets/b/option.html)のように、IPv4 と IPv6 で認証情報が異なるプロバイダでは使えない。o(｀ω´*)oﾌﾟﾝｽｶﾌﾟﾝｽｶ!!
 
+<!--more-->
 
 ということで、IPv6 の IPoE に対応している [ASAHIネット](https://asahi-net.jp/)の最安プランを再契約。対応ルーターを買えばすむ話だが、新しい Mac を買うので節制しなくてはならんという事情と、[ASAHIネット](https://asahi-net.jp/)なら、IPv6 の設定を変更せずにすむという事情もある。
 

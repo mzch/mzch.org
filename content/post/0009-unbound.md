@@ -16,6 +16,8 @@ cp unbound.conf.sample unbound.conf
 ```
 とした上で、unbound.conf を修正。修正点は以下の通り。
 
+<!--more-->
+
 ```conf
 interface: 0.0.0.0
 interface: ::

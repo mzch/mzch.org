@@ -9,6 +9,8 @@ draft: false
 
 備忘録置き場に Wiki を使いたくてググってみたところ、[Growi](https://growi.org/) というよさげな Wiki エンジンがあった。Linux へのインストールは色々記事が見つかったけど、FreeBSD にインストールしてる人はいなさげなので、作業記録をメモっておく。
 
+<!--more-->
+
 [Growi](https://growi.org/) は、全文検索に [ElasticSearch](https://www.elastic.co/products/elasticsearch) を使うので、まずそれをインストール。
 ```sh
 sudo pkg install elasticsearch6-6.4.2_1

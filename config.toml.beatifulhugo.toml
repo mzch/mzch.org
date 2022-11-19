@@ -1,0 +1,78 @@
+baseurl = "/"
+defaultContentLanguage = "ja"
+title = "日々是好日"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "日々のあれこれを気が向いたらまったりと綴るという適当な雑記です。"
+  mainSections = ["post","posts"]
+  logo = "https://img.gdn/lE65KL48.png" # Expecting square dimensions
+  favicon = "https://img.gdn/lE65KL48.png"
+  dateFormat = "2006-01-02"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+  Coral        = false
+  CoralHost    = "commentre.com"
+  Commento     = false
+  CommentoHost = "rfc1855.com"
+  Remark42     = true
+  Remark42Host = "uixis.org"
+  Remark42ID   = "mzch"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Koichi MATSUMOTO"
+  website = "https://mcuce.com/@mzch"
+  facebook = "kch.matsumoto"
+  github = "mzch"
+  gitlab = "letlive"
+  bitbucket = "mzch"
+  twitter = "_mzch"
+  instagram = "mzch"
+  telegram = "mzch1960"
+
+[[menu.main]]
+    name = "ブログ"
+    url = "/post"
+    weight = 1
+
+[[menu.main]]
+    name = "タグ"
+    url = "/tags"
+    weight = 3
+
+[[menu.main]]
+    name = "カテゴリ"
+    url = "/categories"
+    weight = 3

@@ -44,12 +44,12 @@ languages:
 params:
 
   # Commento Host
-  #commentoHostname: "rfc1855.com"
+  commentoHostname: "rfc1855.com"
   # Coral Host
-  coralHostname: "commentre.com"
+  #coralHostname: "commentre.com"
   # Remark42 Host
-  #remarkHostname: "remark.mzchs.com"
-  #remarkSiteId: "mzch"
+  #remark42Hostname: "uixis.org"
+  #remark42SiteId: "mzch"
   
   #customCSS:
   #  - css/custom.css
