@@ -53,6 +53,7 @@ email = "mzch@mzch.org"
 ## Coral Host
 #coralHostname = "commentre.com"
 ## Remark42 Host
+#remarkHostname = "uixis.org"
 remarkHostname = "remark42.mzch.org"
 remarkID = "mzchremark"
 
