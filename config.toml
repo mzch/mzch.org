@@ -144,7 +144,7 @@ pre = "<i class='fa fa-tags'></i>"
 name = "連絡"
 weight = 4
 identifier = "contact"
-url = "/contact/"
+url = "/shosoc/"
 pre = "<i class='fa fa-envelope'></i>"
 
 [[Languages.ja.menu.main]]
