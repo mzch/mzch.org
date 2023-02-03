@@ -142,7 +142,7 @@ pre = "<i class='fa fa-tags'></i>"
 [[Languages.ja.menu.main]]
 name = "連絡"
 weight = 4
-identifier = "contact"
+identifier = "shosoc"
 url = "/shosoc/"
 pre = "<i class='fa fa-envelope'></i>"
 
