@@ -53,10 +53,10 @@ email = "mzch@mzch.org"
 ## Coral Host
 #coralHostname = "commentre.com"
 ## Remark42 Host
-#remarkHostname = "remark42.mzch.org"
-#remarkID = "mzchremark"
+remarkHostname = "remark42.mzch.org"
+remarkID = "mzchremark"
 # Easy Comments
-easyCommentlHostname = "comments.jpn.is"
+#easyCommentlHostname = "comments.jpn.is"
 
 # bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
 # default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
