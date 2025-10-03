@@ -1,161 +1,74 @@
-# hostname (and path) to the root eg. https://appernetic.github.io/
-baseurl = "/"
+baseURL = "https://example.com"
+title = "日日是好日"
+theme = "hugo-notepadium"
+copyright = "© 2018-2025 mzch."
 
-# Remark if you want to disable multilingual support.
-DefaultContentLanguage = "ja"
+languageCode = "en"  # for the RSS generation
+defaultContentLanguage = "ja"
 
-# If you want all of the languages to be put below their respective language code,
-# enable DefaultContentLanguageInSubdir = true. Without enabling it english content
-# will be in the root and other languages in their respective subfolder such as /sv/.
-# See [Languages] settings at the end of this file.
+hasCJKLanguage = true
 
-# Use this languageCode if it's not a multilingual site and also remove all language blocks and menus in the language sections to disable multilingual support.
-# language blocks.
-# Language
-languageCode = "ja"
+enableRobotsTXT = true
 
-# SES friendly url:s
-canonifyurls = true
+# Enable relativeURLs if your site hosted on GitHub.io
+#relativeURLs = true
 
-# Frontmatter format
-# "yaml", "toml", "json"
-metaDataFormat = "yaml"
+[services.disqus]
+shortname = 'dian-noy-jiao-wu-ri-zhi' # Disqus shortname
 
-# Theme to use (located in /themes/THEMENAME/)
-theme = "hugo-bootstrap-premium"
-# Pagination
-paginate = 10
-paginatePath = "page"
+# [services.googleAnalytics]
+# id = '' # Google tag ID
 
-# Enable Disqus integration
-disqusShortname = "dian-noy-jiao-wu-ri-zhi"
+ignoreErrors = ["error-remote-getjson"]
 
+[markup.highlight]
+codeFences = true
+noClasses = false
 
-[permalinks]
-post = "/:year/:month/:day/:filename/"
-code = "/:filename/"
-
-[taxonomies]
-tag = "tags"
-category = "categories"
-
-[author]
-name = "Koichi MATSUMOTO"
-email = "mzch@mzch.org"
-
-#
-# All parameters below here are optional and can be mixed and matched.
-#
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
 
 [params]
-## Commento Host
-#commentoHostname = "rfc1855.com"
-## Coral Host
-#coralHostname = "commentre.com"
-## Remark42 Host
-#remarkHostname = "remark42.mzch.org"
-#remarkID = "mzchremark"
-# Easy Comments
-#easyCommentlHostname = "comments.jpn.is"
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Jan 02, 2006"  # if unset, default is "2006-01-02"
+readingTime = false  # show reading time after article date
+logo = "favicon.png"
+slogan = "100% JavaScript-free"
+#license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
+ipv6ready = true
 
-# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
-# default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
-# slate, spacelab, superhero, united, yeti.
+[params.assets]
+#css = ["css/fonts.css"]
 
-bootswatchtheme = "flatly"
+[params.comments]
+enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
-# menu for changing language. This changes languages with js and stores the choice with the help of JavaScript in a Cookie. Then the path is rewritten with pathnamereplace.js. The name of the md files needs to have the same name for each language abbreviation to work correctly. Example: showcase.en.md and showcase.sv.md. It only works if DefaultContentLanguageInSubdir = true
-switchlang = false
-# You can use markdown here.
-BrandImage = "/images/Logo.png" #top header brand image.
-brand = "日々是好日" # brand image alt text.
-footline = "code with <i class='fa fa-heart'></i>"
+[params.share]
+enable = false  # En/Disable share globally, default: false. You can always enable share on per page.
+addThisId = ""
+inlineToolId = ""
 
-customJS = []
-customCSS = ["/css/style_custom.css"]
+[params.math]
+enable = false # load math globally, default: false. You can always enable math on per page.
+use = "katex"  # builtin: "katex", "mathjax".  default: "katex"
 
-# Text for the top menu link, which goes to the root URL for the site.
-# Default (if omitted) is "Home".
-home = "home"
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "github"
+darkTheme = "dracula"
 
-mailmunchid = "" # Mailmunch site id
-sumomeid = "" # Sumome id
-mathjax = "2.7.1" # cdnjs hosted version; empty string to disable mathjax
+[params.profile]
+  enable = true
+  avatar = ""
+  name = "mzch"
+  bio = "C/C++/Objective-C/Swift Programmer."  # support markdown syntax
+  twitter = "_mzch"  # https://twitter.com/XXX
+  github = "mzch"  # https://github.com/XXX
 
-# Show a sidebar menu
-showRightSidebar = true
-# Select a syntax highlight.
-# Check the static/css/highlight directory for options.
-highlight = "default"
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
 
-# Google Analytics.
-#googleAnalytics = "Your Google Analytics tracking code"
-
-# Sidebar social links.
-github = "mzch" # Your Github profile ID
-gitlab = "letlive"
-facebook = "kch.matsumoto" # Your Bitbucket profile ID
-twitter = "_mzch" # Your Twitter profile ID
-
-# Menus
-# If you want active menu items highlighted for internal pages don't add them here, they need to be added in each files front matter.
-# like this:
-#[menu]
-#     [menu.main]
-#        name = "Showcase"
-#        weight = 3
-#        identifier = "showcase"
-# i18n menus. A menu will be added for each language to the right in the top menu. This menu will switch to the selected language. Remember to add the corresponding language in pathnamereplace.js.
-#[[Languages.sv.menu.switchlang]]
-#  name = "English"
-#  identifier = ""
-#  weight = 4
-#  url = "en"
-
-
-[Languages]
-[Languages.ja]
-languageCode = "ja"
-weight = 1
-copyright = "(c) 2019-2022 Copyright mzch"
-title = "日々是好日" # Site title
-
-[[Languages.ja.menu.main]]
-name = "一覧"
-pre = "<i class='fa fa-list'></i>"
-weight = 1
-identifier = "post"
-url = "/post/"
-
-[[Languages.ja.menu.main]]
-name = "カテゴリ"
-weight = 2
-identifier = "categoties"
-url = "/categories/"
-pre = "<i class='fa fa-cloud'></i>"
-
-[[Languages.ja.menu.main]]
-name = "タグ"
-weight = 3
-identifier = "tags"
-url = "/tags/"
-pre = "<i class='fa fa-tags'></i>"
-
-[[Languages.ja.menu.main]]
-name = "連絡"
-weight = 4
-identifier = "shosoc"
+[[params.nav.custom]]
+title = "連絡"
 url = "/shosoc/"
-pre = "<i class='fa fa-envelope'></i>"
-
-[[Languages.ja.menu.main]]
-name = "RSS"
-weight = 5
-identifier = "rss"
-url = "index.xml"
-pre = "<i class='fa fa-rss'></i>"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
