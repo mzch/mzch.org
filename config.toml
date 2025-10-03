@@ -28,7 +28,7 @@ paginate = 10
 paginatePath = "page"
 
 # Enable Disqus integration
-#disqusShortname = ""
+disqusShortname = "dian-noy-jiao-wu-ri-zhi"
 
 
 [permalinks]
@@ -53,8 +53,8 @@ email = "mzch@mzch.org"
 ## Coral Host
 #coralHostname = "commentre.com"
 ## Remark42 Host
-remarkHostname = "remark42.mzch.org"
-remarkID = "mzchremark"
+#remarkHostname = "remark42.mzch.org"
+#remarkID = "mzchremark"
 # Easy Comments
 #easyCommentlHostname = "comments.jpn.is"
 
