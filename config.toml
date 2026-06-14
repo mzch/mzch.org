@@ -72,3 +72,11 @@ showTags = true             # /tags/
 [[params.nav.custom]]
 title = "連絡"
 url = "/shosoc/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[security]
+  allowContent = ['! ^text/toml$']
+  enableInlineShortcodes = false
